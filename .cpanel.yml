@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/pftra478/public_html/
+    - export DEPLOYPATH=/home/pftra478/pftraveldev.xyz/
     - rsync -avz --delete . $DEPLOYPATH
