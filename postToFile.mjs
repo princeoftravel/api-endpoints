@@ -142,9 +142,9 @@ const RETRY_DELAY = 2000; // 2 seconds
 const endpointMap = {
   // 'https://princeoftravel.wpenginepowered.com/wp-json/wp/v2/posts?meta_key=category_name&meta_value=reviews&_embed': 'reviews.json',
   // 'https://princeoftravel.wpenginepowered.com/wp-json/wp/v2/posts?meta_key=category_name&meta_value=news&_embed': 'news.json',
-  // 'https://princeoftravel.wpenginepowered.com/wp-json/wp/v2/posts?meta_key=category_name&meta_value=deals&_embed': 'deals.json',
+  'https://princeoftravel.wpenginepowered.com/wp-json/wp/v2/posts?meta_key=category_name&meta_value=deals&_embed': 'deals.json',
   // 'https://princeoftravel.wpenginepowered.com/wp-json/wp/v2/posts?meta_key=category_name&meta_value=guides&_embed': 'guides.json',
-  'https://princeoftravel.wpenginepowered.com/wp-json/wp/v2/posts?meta_key=category_name&meta_value=insights&_embed': 'insights.json',
+  // 'https://princeoftravel.wpenginepowered.com/wp-json/wp/v2/posts?meta_key=category_name&meta_value=insights&_embed': 'insights.json',
   // 'https://princeoftravel.wpenginepowered.com/wp-json/wp/v2/posts?meta_key=category_name&meta_value=insights&_embed': 'about.json',
   // // Add more endpoints and filenames here
   // 'https://princeoftravel.wpenginepowered.com/wp-json/pot/v1/credit-cards': 'credit-cards.json',
