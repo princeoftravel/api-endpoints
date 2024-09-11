@@ -6,6 +6,20 @@
 #     - /bin/cp package.json $DEPLOYPATH
 #     - /bin/cp -R data $DEPLOYPATH
 
+# ---
+# deployment:
+#   tasks:
+#     - export DEPLOYPATH=/home/pftra478/public_html/
+    
+#     # Navigate to the directory where your Git repository is located
+#     - cd /home/pftra478/repositories/api-endpoints
+
+#     # Pull the latest changes and LFS files
+#     - git pull
+#     - git lfs pull
+    
+#     # Sync the files to the deployment path
+#     - rsync -avz --delete . $DEPLOYPATH
 
 
 
@@ -13,14 +27,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pftra478/public_html/
-    
-    # Navigate to the directory where your Git repository is located
-    - cd /home/pftra478/repositories/api-endpoints
-
-    # Pull the latest changes and LFS files
-    - git pull
-    - git lfs pull
-    
-    # Sync the files to the deployment path
     - rsync -avz --delete . $DEPLOYPATH
-
